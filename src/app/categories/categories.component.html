@@ -12,7 +12,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                    <button type="submit" class="btn btn-dark">Ajouter</button>
                 </td>
             </tr>
         </table>
@@ -32,7 +32,7 @@
                 <td>{{ categorie.code}}</td>
                 <td>{{ categorie.libelle}}</td>
                 <td>
-                    <button (click)="modifierCategorie(categorie)" class="btn btn-primary">
+                    <button (click)="modifierCategorie(categorie)" class="btn btn-dark">
         <i class="bi bi-pencil"></i> Modifier
         </button> &nbsp;
                     <button (click)="supprimerCategorie(categorie.id)" class="btn btn-danger">
